@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ruleset name="Custom Standard" >
+  <description>Our custom coding standard</description>
+  <rule ref="Generic">
+  <exclude name="Generic.Arrays.ArrayIndent.KeyIncorrect"/>
+  <exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
+  <exclude name="Generic.CodeAnalysis.ForLoopWithTestFunctionCall.NotAllowed"/>
+  <exclude name="Generic.Commenting.DocComment.MissingShort" />
+  <exclude name="Generic.Commenting.DocComment.ShortNotCapital" />
+  <exclude name="Generic.Files.EndFileNoNewline.Found"/>
+  <exclude name="Generic.Files.InlineHTML.Found"/>
+  <exclude name="Generic.Files.LowercasedFilename.NotFound"/>
+  <exclude name="Generic.Files.OneClassPerFile.MultipleFound"/>
+  <exclude name="Generic.Files.OneInterfacePerFile.MultipleFound"/>
+  <exclude name="Generic.Files.OneObjectStructurePerFile.MultipleFound"/>
+  <exclude name="Generic.Formatting.NoSpaceAfterCast.SpaceFound"/>
+  <exclude name="Generic.Formatting.SpaceAfterNot.Incorrect"/>
+  <exclude name="Generic.Formatting.SpaceBeforeCast.NoSpace"/>
+  <exclude name="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+  <exclude name="Generic.NamingConventions.CamelCapsFunctionName.NotCamelCaps"/>
+  <exclude name="Generic.NamingConventions.CamelCapsFunctionName.ScopeNotCamelCaps"/>
+  <exclude name="Generic.NamingConventions.InterfaceNameSuffix.Missing"/>
+  <exclude name="Generic.PHP.CharacterBeforePHPOpeningTag.Found"/>
+  <exclude name="Generic.PHP.ClosingPHPTag.NotFound"/>
+  <exclude name="Generic.PHP.DisallowShortOpenTag.EchoFound" />
+  <exclude name="Generic.PHP.RequireStrictTypes.MissingDeclaration"/>
+  <exclude name="Generic.PHP.UpperCaseConstant.Found"/>
+  <exclude name="Generic.WhiteSpace.DisallowSpaceIndent" />
+  <exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+</rule>
+  <rule ref="Generic.WhiteSpace.ScopeIndent">
+    <properties>
+        <property name="indent" value="2"/>
+        <property name="tabIndent" value="false"/>
+        <property name="exact" value="true" />
+    </properties>
+  </rule>
+</ruleset>
