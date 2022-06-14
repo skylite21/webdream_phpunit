@@ -3,6 +3,7 @@
   <description>Our custom coding standard</description>
   <rule ref="Generic">
   <exclude name="Generic.Arrays.ArrayIndent.KeyIncorrect"/>
+  <exclude name="Generic.Commenting.DocComment"/>
   <exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
   <exclude name="Generic.CodeAnalysis.ForLoopWithTestFunctionCall.NotAllowed"/>
   <exclude name="Generic.Commenting.DocComment.MissingShort" />

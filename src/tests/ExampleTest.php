@@ -11,6 +11,10 @@ class ExampleTest extends TestCase {
     $this->assertEquals(4, 2+2);
   }
 
+  public function testTestFunction() {
+    $this->assertEquals(4, testFunction());
+  }
+
   /**
    * @test
    */
